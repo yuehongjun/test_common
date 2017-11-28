@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.zhht</groupId>
+    <artifactId>TobSymphony</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>test_common</artifactId>
+  <packaging>war</packaging>
+  
+  <dependencies>
+  		<!-- https://mvnrepository.com/artifact/com.dyuproject.protostuff/protostuff-core -->
+		<dependency>
+		    <groupId>io.protostuff</groupId>
+		    <artifactId>protostuff-core</artifactId>
+		    <version>1.5.2</version>
+		</dependency>
+        <!-- https://mvnrepository.com/artifact/io.protostuff/protostuff-runtime -->
+		<dependency>
+		    <groupId>io.protostuff</groupId>
+		    <artifactId>protostuff-runtime</artifactId>
+		    <version>1.5.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>cglib</groupId>
+		    <artifactId>cglib</artifactId>
+		    <version>3.2.4</version>
+		</dependency>
+  </dependencies>
+</project>
